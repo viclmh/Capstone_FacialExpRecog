@@ -1,0 +1,20 @@
+.checkboxstyle{
+    font-size: xx-large;
+}
+
+.chatboxstyle{
+    /* font-size: xx-large;
+    /* width: 200; */
+    /* opacity: 0.8;
+    display: "block";
+    margin: 'auto'; */
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+    opacity: 0.9;
+}
+
+p {
+    font-size: x-large;
+}
