@@ -37,6 +37,7 @@ The backend part is implemented by using Java and Springboot Framework. The requ
 After finishing the environment setup, you could start your IntelliJ and open the backend/ folder. Run the maven reload, maven clean and maven install under the Maven toolbar on the right side of the screen. Click on the start buttion to run the backend on `localhost:8080`. Then you could send the request from frontend and get a classification result. 
 
 ## Data science & Machine Learning
+In this part, we trained machine learning models to classify the facail expressions using SVM, MLP, CNN and two popuplar pretrained models AlexNet and ZFNet. We finished the training using UM GreatLakes and Google Colab. All the code are in the folder Machine Learning.
 
 ## Dataset
 In this project, we used the AffectNet database owned by Professor Mohammad H. Mahoor from University of Denver. For the machine learning model training, we used the AffectNet8 dataset with eight (8) labels: A mini version (around 4GB) that only contains the manually annotated images with 8 labels (0-7 as explained above) released since March 2021.
