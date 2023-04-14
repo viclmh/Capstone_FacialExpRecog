@@ -1,19 +1,19 @@
 const emojis = [
     {
-        symbols: ["😐", "😐"],
+        symbols: ["😐", "😶", "😑", "😶‍🌫️", "🫥"],
         label: "Neutral",
     },
     {
-        symbols: ["🙂", "😃"],
+        symbols: ["🙂", "😃", "😆", "😄", "😀"],
         label: "Happy",
     },
     {
-        symbols: ["🙁", "😟"],
+        symbols: ["🙁", "😟", "☹️", "😞", "😔"],
         label: "Sad",
     },
     {
-        symbols: ["😲", "😯"],
-        label: "Surprised",
+        symbols: ["😲", "😳", "😯", "😮", "🫢"],
+        label: "Surprise",
     },
 
 ]
