@@ -1,5 +1,5 @@
 // const domain = "http://localhost:8080";
-const domain = ""
+const domain = "https://capstone-383618.uk.r.appspot.com"
 
 
 export const sumbitImage = (data) => {
