@@ -6,7 +6,7 @@ const ChatBox = ({emoji}) => {
     return (
         <div className='chatboxstyle'>
             <Card title="Chat Box" bordered={false}>
-                {emoji.map((item, index) => <p>{item}</p>)}
+                {emoji.map((item, index) => <p className='chatboxfont' key={index}>{item}</p>)}
             </Card>
         </div>
     )

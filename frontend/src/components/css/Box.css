@@ -8,13 +8,23 @@
     /* opacity: 0.8;
     display: "block";
     margin: 'auto'; */
-
     margin-left: auto;
     margin-right: auto;
     width: 16em;
     opacity: 0.9;
 }
-
-p {
+.chatboxfont {
     font-size: x-large;
+}
+
+.instruction {
+    font-size: large;
+    font-family: serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
 }
