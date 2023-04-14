@@ -1,4 +1,4 @@
-# Facail Expression Recognition Application
+# Facial Expression Recognition Application
 
 **Minghan Li** (viclmh@umich.edu), **Hongju Lee** (hongjlee@umich.edu)
 
