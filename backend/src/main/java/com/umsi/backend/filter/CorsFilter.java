@@ -26,3 +26,5 @@ public class CorsFilter extends OncePerRequestFilter {
         }
     }
 }
+
+// This part of code is added to allow CORS (Cross-Origin Resource Sharing) when deploying the backend into Google App Engine.
