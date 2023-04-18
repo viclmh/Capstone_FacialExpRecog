@@ -7,7 +7,7 @@ This is a mastery capstone project for SI699 at University of Michigan - Ann Arb
 
 In this project, we designed and created a facial expression recognition web application supporting classifying 4 kinds of different expressions: **1. Neutral 2.Happy 3.Sad 4.Surprise** and showing corresponding emojis.
 
-We have deployed the frontend into AWS Amplify and deployed the backend into GCP Google App Engine. Therefore, you could visit our deployed website at instead of running this locally because you may spend some time on the backend java environment configuration. 
+We have deployed the frontend into AWS Amplify and deployed the backend into GCP Google App Engine. Therefore, you could visit our deployed website at https://production.duh3ppj40hixb.amplifyapp.com/ instead of running this locally because you may spend some time on the backend java environment configuration. 
 
 ## Frontend
 Frontend development is implemented by Javascript and using React.js. The full library and dependencies are listed in package.json.
@@ -40,7 +40,7 @@ After finishing the environment setup, you could start your IntelliJ and open th
 In this part, we trained machine learning models to classify the facail expressions using SVM, MLP, CNN and two popuplar pretrained models AlexNet and ZFNet. We finished the training using UM GreatLakes and Google Colab. All the code are in the folder Machine Learning.
 
 ## Dataset
-In this project, we used the AffectNet database owned by Professor Mohammad H. Mahoor from University of Denver. For the machine learning model training, we used the AffectNet8 dataset with eight (8) labels: A mini version (around 4GB) that only contains the manually annotated images with 8 labels (0-7 as explained above) released since March 2021.
+In this project, we used the AffectNet database owned by Professor Mohammad H. Mahoor from University of Denver. For the machine learning model training, we used the AffectNet8 dataset with eight (8) labels: A mini version (around 4GB) that only contains the manually annotated images with 8 labels released since March 2021.
 - **Citation:** A. Mollahosseini; B. Hasani; M. H. Mahoor, "AffectNet: A Database for Facial Expression, Valence, and Arousal Computing in the Wild," in IEEE Transactions on Affective Computing, 2017.
 
   
