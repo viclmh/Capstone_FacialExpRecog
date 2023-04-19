@@ -80,3 +80,5 @@ const WebCamera = ({setResStatus, setRes}) => {
   )
 }
 export default WebCamera
+
+// The implementation of WebCamera is referenced from https://github.com/mozmorris/react-webcam and https://www.positronx.io/react-js-capture-images-and-pictures-using-webcam-tutorial/
