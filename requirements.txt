@@ -1,0 +1,10 @@
+The required lbraries for frontend and backend are showed in the README file.
+
+The required Python libraries:
+
+tensorflow (version 2.6.0)
+keras (version 2.6.0)
+sklearn
+numpy
+cv2
+matplotlib
