@@ -1,14 +1,5 @@
 package com.umsi.backend.service;
 
-//import org.opencv.core.Core;
-//import org.opencv.core.Mat;
-//import org.opencv.core.MatOfByte;
-//import org.opencv.core.Size;
-//import org.opencv.imgcodecs.Imgcodecs;
-//import org.opencv.imgproc.Imgproc;
-
-// *** Tried to use opencv library for image preprocessing ***
-
 import org.datavec.image.loader.NativeImageLoader;
 import org.deeplearning4j.nn.graph.ComputationGraph;
 import org.nd4j.linalg.dataset.api.preprocessor.DataNormalization;
@@ -91,7 +82,6 @@ public class ClassifyImageService {
     private int predict(byte[] img, File outputFile) throws IOException, UnsupportedKerasConfigurationException, InvalidKerasConfigurationException {
 
         // load machine learning model
-//        String mlp = "/Users/liminghan/Downloads/CNN.h5";
         ClassLoader classLoader = getClass().getClassLoader();
         InputStream inputStream = classLoader.getResourceAsStream("CNN.h5");
 //        InputStream inputStream = classLoader.getResourceAsStream("baseline_model.h5");
@@ -100,8 +90,6 @@ public class ClassifyImageService {
 
 
         // load the image
-//        File outputFile = new File("/Users/liminghan/Downloads/input.jpg");
-
         System.out.println(outputFile);
 
         NativeImageLoader loader = new NativeImageLoader(100, 100, 1);
